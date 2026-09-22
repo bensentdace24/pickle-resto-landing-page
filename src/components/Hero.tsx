@@ -3,7 +3,10 @@ import Button from "./ui/Button";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative flex min-h-[100svh] items-center overflow-hidden bg-slate-900">
+    <section
+      id="home"
+      className="relative flex min-h-[100svh] items-center overflow-hidden bg-slate-900"
+    >
       {/* Split background imagery */}
       <div className="absolute inset-0 grid grid-cols-1 sm:grid-cols-2">
         <div
@@ -43,18 +46,28 @@ export default function Hero() {
             className="animate-fade-up mx-auto mt-6 max-w-xl text-base text-white/80 sm:text-lg"
             style={{ animationDelay: "200ms" }}
           >
-            An experience worth coming back to — savor chef-crafted dishes, then dink,
-            drive and smash on our premium pickleball courts.
+            An experience worth coming back to — savor chef-crafted dishes, then
+            dink, drive and smash on our premium pickleball courts.
           </p>
 
           <div
             className="animate-fade-up mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
             style={{ animationDelay: "300ms" }}
           >
-            <Button href="#menu" size="lg" variant="primary" className="w-full sm:w-auto">
+            <Button
+              href="#menu"
+              size="lg"
+              variant="primary"
+              className="w-full sm:w-auto"
+            >
               View Menu
             </Button>
-            <Button href="#pickleball" size="lg" variant="outline" className="w-full sm:w-auto">
+            <Button
+              href="#pickleball"
+              size="lg"
+              variant="outline"
+              className="w-full sm:w-auto"
+            >
               Explore Pickleball
             </Button>
           </div>
@@ -67,7 +80,9 @@ export default function Hero() {
         aria-label="Scroll to About section"
         className="absolute bottom-7 left-1/2 z-10 hidden -translate-x-1/2 flex-col items-center gap-2 text-white/70 transition-colors hover:text-white sm:flex"
       >
-        <span className="text-[10px] font-semibold uppercase tracking-[0.3em]">Scroll</span>
+        <span className="text-[10px] font-semibold uppercase tracking-[0.3em]">
+          Scroll
+        </span>
         <span className="flex h-9 w-6 items-start justify-center rounded-full border border-white/40 p-1.5">
           <span className="h-2 w-1 animate-float-slow rounded-full bg-white/80" />
         </span>

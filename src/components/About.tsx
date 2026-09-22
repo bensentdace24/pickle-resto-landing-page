@@ -19,7 +19,7 @@ export default function About() {
             More Than Just a<br className="hidden sm:block" /> Place to Eat
           </h2>
           <p className="mt-6 text-base leading-relaxed text-slate-600 sm:text-lg">
-            Dink &amp; Dine brings together two of life's simple pleasures — a hearty, home-style
+            MJ Pickle &amp; Restaurant brings together two of life's simple pleasures — a hearty, home-style
             meal and a good, competitive game. Whether you're here to relax over comfort food with
             family or to break a sweat on our pickleball courts with friends, we've built a space
             designed for connection, community and fun.
